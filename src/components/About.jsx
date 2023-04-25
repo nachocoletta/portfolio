@@ -14,23 +14,16 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-          deserunt illum mollitia officiis qui exercitationem perferendis neque
-          quasi a recusandae necessitatibus tempora iusto! Blanditiis error
-          iste, totam fugiat recusandae rerum laborum perferendis molestiae
-          aperiam asperiores nemo. Magni dolor maxime debitis vitae, eaque hic
-          ab mollitia voluptatibus, a nostrum eveniet laborum!
+        Hello and welcome to my Portfolio! My name is Ignacio Coletta, and I'm a Full Stack Developer. With 1 year of experience in web development and functional analysis, I have developed strong skills in JavaScript, ReactJS, NodeJS, Express, Sequelize, PostgreSQL, and MySQL.
         </p>
 
         <br />
 
         <p className="text-xl">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-          pariatur, vel similique sint, nobis aspernatur ut praesentium
-          explicabo ipsam aliquid quasi laboriosam et culpa possimus repudiandae
-          quisquam ullam maiores ab unde. Fugiat odio mollitia nemo alias.
-          Commodi facilis atque nulla vero voluptatem explicabo. Quibusdam,
-          magni quo! Eum cupiditate debitis labore.
+        My approach is always collaborative and efficient, and I enjoy working with others to achieve team and company goals. I'm a creative and passionate individual who is always open to new opportunities and challenges.
+I am constantly seeking to learn and improve my skills and am willing to take on new projects to continue growing professionally.
+Feel free to connect with me if you'd like to discuss professional opportunities or share your thoughts and experiences. I'd love to get to know you and learn more about your work and career.
+
         </p>
       </div>
     </div>
