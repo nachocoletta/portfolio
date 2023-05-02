@@ -6,8 +6,30 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+
+
 @layer base {
   html {
     font-family: 'Raleway', sans-serif;
   }
 } 
+
+@media only screen and (min-width:320px) and (max-width:800px){
+.H2-HOME{
+margin-top: 320px;
+}
+.home-cont{
+  padding-top: 180px;
+}
+.about {
+  padding-top: 600px;
+}
+.portfolio {
+  padding-top: 350px;
+}
+
+}
+
+
