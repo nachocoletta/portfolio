@@ -7,6 +7,7 @@ import React from "react";
 // import reactWeather from "../assets/portfolio/reactWeather.jpg";
 import foods from '../assets/portfolio/foods.jpg'
 import phoneZone from '../assets/portfolio/phonezone.jpg'
+import awericana from '../assets/portfolio/awericana.jpeg'
 
 const Portfolio = () => {
   const portfolios = [
@@ -22,6 +23,12 @@ const Portfolio = () => {
       linkWeb: "https://front-phone-zone.vercel.app/",
       linkCode: "https://github.com/jooseariias/Mobil-Store"
     },
+    {
+      id: 3,
+      src: awericana,
+      linkWeb: "https://frontawericana-production.up.railway.app/",
+      linkCode: "https://github.com/No-Country/c11-29-ft-node-react-Awericana"
+    }
   ];
 
   return (
