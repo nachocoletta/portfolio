@@ -5,9 +5,9 @@ import React from "react";
 // import reactParallax from "../assets/portfolio/reactParallax.jpg";
 // import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 // import reactWeather from "../assets/portfolio/reactWeather.jpg";
-import foods from '../assets/portfolio/foods.jpg'
-import phoneZone from '../assets/portfolio/phonezone.jpg'
-import awericana from '../assets/portfolio/awericana.jpeg'
+import foods from "../assets/portfolio/foods.jpg";
+import phoneZone from "../assets/portfolio/phonezone.jpg";
+import awericana from "../assets/portfolio/tiendaVideoJuegos.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -15,20 +15,20 @@ const Portfolio = () => {
       id: 1,
       src: foods,
       linkWeb: "https://front-pi-foods.vercel.app/",
-      linkCode: "https://github.com/nachocoletta/PI-Food"
+      linkCode: "https://github.com/nachocoletta/PI-Food",
     },
     {
       id: 2,
       src: phoneZone,
       linkWeb: "https://front-phone-zone.vercel.app/",
-      linkCode: "https://github.com/jooseariias/Mobil-Store"
+      linkCode: "https://github.com/jooseariias/Mobil-Store",
     },
     {
       id: 3,
       src: awericana,
-      linkWeb: "https://frontawericana-production.up.railway.app/",
-      linkCode: "https://github.com/No-Country/c11-29-ft-node-react-Awericana"
-    }
+      linkWeb: "https://mundogamers.netlify.app/",
+      linkCode: "https://github.com/jooseariias/Tienda-VideoJuegos",
+    },
   ];
 
   return (
@@ -46,7 +46,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, linkWeb, linkCode}) => (
+          {portfolios.map(({ id, src, linkWeb, linkCode }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
