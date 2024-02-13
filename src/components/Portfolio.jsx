@@ -7,7 +7,7 @@ import React from "react";
 // import reactWeather from "../assets/portfolio/reactWeather.jpg";
 import foods from "../assets/portfolio/foods.jpg";
 import phoneZone from "../assets/portfolio/phonezone.jpg";
-import awericana from "../assets/portfolio/tiendaVideoJuegos.png";
+import tiendaVideoJuegos from "../assets/portfolio/tiendaVideoJuegos.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -25,7 +25,7 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      src: awericana,
+      src: tiendaVideoJuegos,
       linkWeb: "https://mundogamers.netlify.app/",
       linkCode: "https://github.com/jooseariias/Tienda-VideoJuegos",
     },
@@ -51,7 +51,7 @@ const Portfolio = () => {
               <img
                 src={src}
                 alt=""
-                className="rounded-md duration-200 hover:scale-105"
+                className="rounded-md duration-200 hover:scale-100 w-80 h-80 object-cover"
               />
               <div className="flex items-center justify-center">
                 <a href={linkWeb} target="_blank" rel="noopener noreferrer">
