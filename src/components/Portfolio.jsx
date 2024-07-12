@@ -8,7 +8,7 @@ import React from "react";
 import foods from "../assets/portfolio/foods.jpg";
 import phoneZone from "../assets/portfolio/phonezone.jpg";
 import tiendaVideoJuegos from "../assets/portfolio/tiendaVideoJuegos.png";
-
+import backendCoderhouse from "../assets/portfolio/backend.png";
 const Portfolio = () => {
   const portfolios = [
     {
@@ -17,11 +17,17 @@ const Portfolio = () => {
       linkWeb: "https://front-pi-foods.vercel.app/",
       linkCode: "https://github.com/nachocoletta/PI-Food",
     },
+    // {
+    //   id: 2,
+    //   src: phoneZone,
+    //   linkWeb: "https://front-phone-zone.vercel.app/",
+    //   linkCode: "https://github.com/jooseariias/Mobil-Store",
+    // },
     {
-      id: 2,
-      src: phoneZone,
-      linkWeb: "https://front-phone-zone.vercel.app/",
-      linkCode: "https://github.com/jooseariias/Mobil-Store",
+      id: 3,
+      src: backendCoderhouse,
+      linkWeb: "https://coderhouse-proyectofinal-production.up.railway.app/",
+      linkCode: "https://github.com/nachocoletta/CoderHouse-ProyectoFinal",
     },
     {
       id: 3,
